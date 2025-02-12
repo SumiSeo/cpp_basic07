@@ -24,6 +24,14 @@ int main()
         std::cout << "Array 2[3] :" << arr2[3]<<std::endl;
         std::cout << "Array 2[4] :" << arr2[4]<<std::endl;
         std::cout << "Array 2[5] :" << arr2[5]<<std::endl;
+
+
+        Array<int> *arr3 = new Array<int>(arr2);
+
+        std::cout <<"Array 3 size :" << arr3->size() << std::endl;
+    
+
+
      
     }
    catch (const std::exception& error)  
