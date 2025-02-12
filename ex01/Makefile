@@ -1,6 +1,6 @@
-NAME = operation
- 
-SRC = main.cpp
+NAME = iter
+
+SRC = main.cpp Iter.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
