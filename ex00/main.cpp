@@ -15,5 +15,21 @@ int main()
     std::cout << "c = " << c << ", d = " << d << std::endl;
     std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
     std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
+
+
+    std::string f= "hello";
+    std::string e= "world";
+    ::swap( e, f);
+    std::cout << "e= " << e<< ", f= " << f<< std::endl;
+    std::cout << "min( c, f ) = " << ::min( e, f ) << std::endl;
+    std::cout << "max( c, f) = " << ::max( e, f) << std::endl;
+    
+
+
+
+
+
+
+
     return 0;
 }
