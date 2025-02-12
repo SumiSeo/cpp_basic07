@@ -1,6 +1,6 @@
 NAME = iter
 
-SRC = main.cpp Iter.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

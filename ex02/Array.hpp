@@ -48,14 +48,14 @@ class Array
         T &operator[](unsigned int i)
         {
             if(i >= n)
-                throw std::out_of_range("Index out of bounds");
+                throw std::out_of_range("Index out of bounds !");
             return array[i];
         }
 
         T &operator[](unsigned int i) const 
         {
             if(i >= n)
-                throw std::out_of_range("Index out of bounds");
+                throw std::out_of_range("Index out of bounds !");
             return array[i];
         }
 };  
